@@ -1,13 +1,14 @@
 /*K Closest In Sorted Array
-Description
-Given a target integer T, a non-negative integer K and an integer array A sorted in ascending order, find the K closest numbers to T in A.
+Given a target integer T, a non-negative integer K and an integer array A sorted in ascending order, 
+find the K closest numbers to T in A.
 
 Assumptions
 A is not null
 K is guranteed to be >= 0 and K is guranteed to be <= A.length
 
 Return
-A size K integer array containing the K closest numbers(not indices) in A, sorted in ascending order by the difference between the number and T.
+A size K integer array containing the K closest numbers(not indices) in A, 
+sorted in ascending order by the difference between the number and T.
 
 Examples
 A = {1, 2, 3}, T = 2, K = 3, return {2, 1, 3} or {2, 3, 1}
