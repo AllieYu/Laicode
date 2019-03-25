@@ -34,10 +34,10 @@ public class Solution {
 				// 也可以直接break
 				// left = mid; right= mid; break;
 				left = mid;
-			} else if (target < array[mid]) {
-				right = mid;
-			} else {
+			} else if (array[mid] < target) {
 				left = mid;
+			} else {
+				right = mid;
 			}
 		}
 		// post-processing find the closest number
