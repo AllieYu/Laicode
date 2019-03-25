@@ -1,6 +1,7 @@
 /*Search In Unknown Sized Sorted Array
-Description
-Given a integer dictionary A of unknown size, where the numbers in the dictionary are sorted in ascending order, determine if a given target integer T is in the dictionary. Return the index of T in A, return -1 if T is not in A.
+
+Given a integer dictionary A of unknown size, where the numbers in the dictionary are sorted in ascending order, 
+determine if a given target integer T is in the dictionary. Return the index of T in A, return -1 if T is not in A.
 
 Assumptions
 dictionary A is not null
